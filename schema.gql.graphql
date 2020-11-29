@@ -1,0 +1,9 @@
+type Product {
+    name: String!
+    published: Boolean!
+}
+
+
+type Query {
+    allProducts: [Product!]
+}
